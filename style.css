@@ -1,0 +1,166 @@
+body{
+    font-family: 'Sniglet', cursive;
+    font-weight: light;
+}
+.carousel-item img{
+    width: 100%;
+    height: 95vh;
+    overflow: hidden;
+}
+.carousel-item:after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.3);
+  }
+.carousel{
+    height: 95vh;
+}
+
+.carousel-caption{
+    height: 50vh;
+    text-align: center;
+    
+}
+
+.carousel-caption h2{
+    color:white;
+    font-size: 100px;
+    margin-bottom: 30px;
+
+}
+
+.carousel-caption a{
+    text-decoration: none;
+    color:white;
+    background-color:#339980;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+.starter{
+    position:absolute;
+    color: white;
+    font-size: 30px;
+    top:30px;
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    
+}
+.starter span{
+    margin-right: 20%;
+}
+.starter .dropdown{
+    display: inline;
+    margin-left: 20%;
+}
+
+
+
+
+@media only screen and (max-width: 1400px) {
+    .carousel-item img{
+        height: 60vh;
+    }
+    .carousel{
+        height: 60vh;
+    } 
+    .carousel-caption{
+        height: 30vh;
+        text-align: center;
+        
+    }
+  
+}
+
+@media only screen and (max-width: 1000px) {
+    .carousel-item img{
+        height: 50vh;
+    }
+    .carousel{
+        height: 50vh;
+    } 
+    .carousel-caption{
+        height: 25vh;
+        text-align: center;
+        
+    }
+    .carousel-caption h2{
+        color:white;
+        font-size: 60px;
+        margin-bottom: 30px;
+    
+    }
+  
+}
+@media only screen and (max-width: 800px) {
+    .carousel-item img{
+        height: 40vh;
+    }
+    .carousel{
+        height: 40vh;
+    } 
+    .carousel-caption{
+        height: 20vh;
+        text-align: center;
+        
+    }
+    .carousel-caption h2{
+        color:white;
+        font-size: 40px;
+        margin-bottom: 20px;
+    
+    }
+  
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-item img{
+        height: 30vh;
+    }
+    .carousel{
+        height: 30vh;
+    } 
+    .carousel-caption{
+        height: 15vh;
+        text-align: center;
+        
+    }
+    .carousel-caption h2{
+        color:white;
+        font-size: 30px;
+        margin-bottom: 20px;
+    
+    }
+    .carousel-caption a{
+        background-color:#339980;
+        padding: 5px 40px;
+        border-radius: 5px;
+    }
+  
+}
+
+@media only screen and (max-width: 400px) {
+    .carousel-item img{
+        height: 20vh;
+    }
+    .carousel{
+        height: 20vh;
+    } 
+    .carousel-caption{
+        height: 10vh;
+        text-align: center;
+        
+    }
+    carousel-caption h5{
+        margin-bottom: 10px;
+
+    
+    }
+    
+   
+}
